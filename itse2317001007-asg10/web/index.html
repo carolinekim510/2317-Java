@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- index.html Caroline Kim-->
+<html>
+    <head>
+        <title>Form Processing with JSP</title>
+        <link rel="stylesheet" href="css/css-1.css">
+    </head>
+    <body>
+        <div class="center">
+            <h1>ACC Student Information</h1>
+            <p>To all ACC students, please enter your information.</p>
+            <!-- 1st Form Caroline Kim-->
+            <form action="form-processor-one.jsp" method="get">
+                <table class="inline-block">
+                    <tr><th class="th-title" colspan="2">Student Information</th></tr>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="firstName" class="td-se2"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="lastName" class="td-se2"></td>
+                    </tr>
+                    <tr>
+                        <td>College Name:</td>
+                        <td><input type="text" name="collegeName" class="td-se2"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number (all 10):</td>
+                        <td><input type="text" name="phoneNumber" class="td-se2"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><br><input type="submit" value="Submit Information"></td>
+                    </tr>
+                </table>
+            </form>
+            <br><br>
+            <!-- 2nd From Caroline Kim-->
+            <form action="form-processor-two.jsp" method="post">
+                <table class="inline-block">
+                    <tr><th class="th-title" colspan="2">Personal Favorites</th></tr>
+                    <tr>
+                        <td>Favorite Sports:</td>
+                        <td><select name="favSport" class="td-se">
+                                <option value=""></option>
+                                <option value="Baseball">Baseball</option>
+                                <option value="Basketball">Basketball</option>
+                                <option value="Football">Football</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Team:</td>
+                        <td><select name="favTeam" class="td-se">
+                                <option value=""></option>
+                                <option value="New York Yankees">New York Yankees</option>
+                                <option value="Houston Astros">Houston Astros</option>
+                                <option value="Los Angeles Dodgers">Los Angeles Dodgers</option>
+                                <option value="Chicago Bulls">Chicago Bulls</option>
+                                <option value="Los Angeles Lakers">Los Angeles Lakers</option>
+                                <option value="New York Knicks">New York Knicks</option>
+                                <option value="San Antonio Spurs">San Antonio Spurs</option>
+                                <option value="New England Patriots">New England Patriots</option>
+                                <option value="Dallas Cowboys">Dallas Cowboys</option>
+                                <option value="New York Giants">New York Giants</option>
+                                <option value="Pittsburgh Steelers">Pittsburgh Steelers</option>
+                                <option value="San Francisco 49ers">San Francisco 49ers</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Player:</td>
+                        <td><select name="favPlayer" class="td-se">
+                                <option value=""></option>
+                                <option value="Tom Brady">Tom Brady</option>
+                                <option value="Dak Prescott">Dak Prescott</option>
+                                <option value="Mason Rudolph">Mason Rudolph</option>
+                                <option value="Jimmy Garoppolo">Jimmy Garoppolo</option>
+                                <option value="Daniel Jones">Daniel Jones</option>
+                                <option value="Luke Kornet">Luke Kornet</option>
+                                <option value="Ivan Rabb">Ivan Rabb</option>
+                                <option value="Rudy Gay">Rudy Gay</option>
+                                <option value="LeBron James">LeBron James</option>
+                                <option value="Aaron Judge">Aaron Judge</option>
+                                <option value="Alex Bregman">Alex Bregman</option>
+                                <option value="Cody Bellinger">Cody Bellinger</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Reason Favorite?:</td>
+                        <td><textarea type="text" name="resFav" id="td-tx"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><br><input type="submit" value="Personal Favorites"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
