@@ -1,0 +1,67 @@
+/* css-1.css Caroline Kim */
+/* For HTML5 shiv */
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section {display:block;}
+
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+ul {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+p {
+    font-size: 2em;
+    margin: 10px 0px;
+}
+
+button {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.inline-block {
+    display: inline-table;
+}
+
+.center {
+    width: 525px;
+    margin: 0 auto;
+}
+
+.coral_color {
+    background-color: coral;
+}
+
+.blue_color {
+    color: blue;
+}
+
+.red_color {
+    color: red;
+}
+
+#td-id1 {
+    background-color: plum;
+}
+
